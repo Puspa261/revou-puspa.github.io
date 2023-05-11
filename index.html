@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Assignment </title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"> moqups </div>
+        <div class="nav">
+            <a href="#home" class="nav-item"> Home </a>
+            <a href="#our-package" class="nav-item nav-center"> Our Package </a>
+            <a href="#call-action" class="nav-item"> Call Us </a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="home">
+            <div class="banner">
+                <center>
+                    <h1> Top Rated E-Groceries Shop in Indonesian </h1>
+                    <p class="gray"> Every Day with best ingredients </p>
+                </center>
+            </div>
+        </section>
+
+        <section id="main-form">
+            <div class="pict">
+                <center>
+                    <div>
+                        <img src="./assets/sayur.jpg" alt="buah" class="image-slide fruit">
+                        <img src="./assets/bumbu-dapur.jpg" alt="buah" class="image-slide fruit">
+                        <img src="./assets/buah.jpg" alt="buah" class="image-slide fruit">
+                        <img src="./assets/alat-masak.jpg" alt="buah" class="image-slide fruit">
+                    </div>
+                    <script src="./js/index.js"></script>
+                    <p class="gray italic"> "setiap hari beli sayur buah yang fresh disini" </p><br>
+                </center>
+                    <div class="user">
+                        <div>
+                            <img src="./assets/user.png" alt="user" class="user-image">
+                        </div>
+                        <div>
+                            <p><b>Puspa Khairunnisa</b></p>
+                            <p class="gray italic">Mahasiswi, 20</p>
+                        </div>
+                    </div>
+                    <center><div class="border"></div></center>
+                    <p class="benefits-head"><b> THE BENEFITS YOU GET!</b></p>
+                    <div class="benefits">
+                        <div class="benefits-item">
+                            <div class="circle"><p><b> 1 </b></p></div>
+                            <p class="benefits-p gray"> Sumber Vitamin dan Mineral: Buah dan sayur kaya akan vitamin dan mineral yang 
+                                dibutuhkan oleh tubuh untuk berfungsi dengan baik. Vitamin C dalam buah-buahan dan sayuran dapat membantu 
+                                meningkatkan sistem kekebalan tubuh, sementara vitamin A dapat membantu menjaga kesehatan mata dan kulit. </p>
+                        </div>
+                        <div class="benefits-item">
+                            <div class="circle"><p><b> 2 </b></p></div>
+                            <p class="benefits-p gray"> Menambah cita rasa makanan: Bumbu dapur seperti bawang putih, 
+                                bawang merah, jahe, lada, atau rempah-rempah lainnya dapat menambah cita rasa pada makanan. 
+                                Selain itu, penggunaan bumbu dapur yang tepat dapat memberikan nuansa dan aroma yang khas pada masakan.</p>
+                        </div>
+
+                        <div class="benefits-item">
+                            <div class="circle"><p><b> 3 </b></p></div>
+                            <p class="benefits-p gray"> Memudahkan pengolahan makanan: Alat masak seperti blender, food processor, 
+                                dan mixer dapat membantu memudahkan pengolahan makanan. Misalnya, blender dapat digunakan untuk membuat 
+                                jus atau smoothie dengan cepat dan mudah.  </p>
+                        </div>
+                    </div><br><br>
+            </div>
+            <form name="contact-us" onsubmit="return validateForm()" class="contact">
+                <h2> Contact Us </h2>
+                <p class="label gray"> Sales akan menghubungi anda 1x24 jam setelah data kami terima</p><br>
+                <label class="label"><b> Your Name: </b></label>
+                <input type="text" name="name" class="input" placeholder="First and last name"><br>
+
+                <label class="label"><b> Email Address: </b></label>
+                <input type="email" name="email" class="input" placeholder="example@email.com"><br>
+
+                <label class="label"><b> Phone Number: </b></label>
+                <input type="number" name="number" class="input" placeholder="123456789101"><br>
+
+                <label class="label"><b> Messages: </b></label>
+                <textarea rows="3" cols="10" name="messages" class="input text-area" placeholder="abcde..."></textarea><br>
+
+                <input type="submit" value="SEND" target="_blank" class="button"><br>
+            </form>
+            <script src="./js/index.js"></script>
+        </section>
+
+        <section id="our-package">
+            <div class="package">
+                <div class="package-head">
+                    <center><h1> Our Package </h1></center>
+                </div><br>
+
+                <div class="package-item">
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/lamp.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Fresh Vegetables </h2>
+                            <p class="gray"> Sayuran segar langsung dari sumber pertanian terbaik </p>
+                        </div>
+                    </div>
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/lamp.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Fresh Fruit </h2>
+                            <p class="gray"> Buah dengan kualitas terbaik dari local atau import dan harga yang menarik </p>
+                        </div>
+                    </div>
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/lamp.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Instant Delivery </h2>
+                            <p class="gray"> Di kirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu </p>
+                        </div>
+                    </div>
+                </div>
+                <center><div class="border"></div></center>
+                <div class="package-item">
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/star.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Kitchen Ingredient </h2>
+                            <p class="gray"> Bumbu dapur lengkap untuk keperluan memasak kamu </p>
+                        </div>
+                    </div>
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/star.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Kitchen Set </h2>
+                            <p class="gray"> Segala jenis masa untuk membantu kamu memasak </p>
+                        </div>
+                    </div>
+                    <div class="package-item-item">
+                        <div>
+                            <img src="./assets/star.png" class="package-pict">
+                        </div>
+                        <div>
+                            <h2 class="package-main"> Bunding Set </h2>
+                            <p class="gray"> Bingung masak apa? sudah tersedia paket untuk kamu masak di dapur mu </p>
+                        </div>
+                    </div>
+                </div><br><br><br>
+            </div>
+        </section>
+
+        <section id="call-action">
+            <div class="call-us">
+                <center>
+                    <h1> Hubungi Kami </h1>
+                    <p class="gray"> Jika anda tertarik dengan isi di website ini, silahkan 
+                        hubungi kami <br> dengan klik tombol "CALL TO ACTION" dibawah ini </p>
+                    <a href="https://www.instagram.com/pspakh_/" target="_blank"><button type="button" class="button-call">CALL TO ACTION</button></a>
+                </center>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <center>
+            <div class="footer-logo"> moqups </div>
+            <p class="footer-name gray"> Terms of Service  Privacy Policy <br> 2019 Moqups </p>
+        </center>
+    </footer>
+</body>
+</html>
